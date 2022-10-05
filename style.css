@@ -1,0 +1,32 @@
+a {
+    color: red;
+}
+
+/*add an underline only when the mouse hovers over*/
+a:hover {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(221, 249, 255);
+}
+
+.articles {
+    background-image: linear-gradient(to right, rgb(155, 190, 255) , rgb(255, 87, 87));
+}
+
+* {
+    font-family: Arial;
+}
+
+#main-title, h3{
+    font-family: geneva;
+}
+
+#main-title {
+    background-image: url("https://cf.ltkcdn.net/french/images/orig/285049-2022x1348-french-flag-in-paris.jpg");
+    background-repeat: no-repeat;
+    background-size: auto
+    color: blue;
+    margin: 0%;
+}
