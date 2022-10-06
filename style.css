@@ -1,32 +1,46 @@
+* {
+    font-family: Arial;
+}
 a {
     color: red;
 }
-
 /*add an underline only when the mouse hovers over*/
 a:hover {
     background-color: white;
 }
-
-body {
-    background-color: rgb(221, 249, 255);
-}
-
 .articles {
     background-image: linear-gradient(to right, rgb(155, 190, 255) , rgb(255, 87, 87));
 }
-
-* {
-    font-family: Arial;
+body {
+    background-color: rgb(221, 249, 255);
 }
-
+img {
+    display: block;
+    height: 20%;
+    border: 5px rgb(90, 138, 222) solid;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+header {
+    text-shadow: 5px 5px yellow;
+}
+header , a {
+    padding: 50px;
+}
+header, img, a {
+    box-shadow: 5px 10px rgb(253, 255, 253);
+    border-radius: 0.75em;
+}
 #main-title, h3{
     font-family: geneva;
 }
-
 #main-title {
     background-image: url("https://cf.ltkcdn.net/french/images/orig/285049-2022x1348-french-flag-in-paris.jpg");
     background-repeat: no-repeat;
-    background-size: auto
+    background-size: auto;
     color: blue;
     margin: 0%;
+}
+.subheading {
+    border-bottom: rgb(232, 3, 3) solid;
 }
